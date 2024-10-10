@@ -7,10 +7,10 @@ public class Queuelist implements IMethods {
 
     }
 
-    public int[] doubleArray(int[] name) {
-        int[] queueNew = new int[name.length * 2];
-        for (int i = 0; i < name.length; i++) {
-            queueNew[i] = name[i];
+    public int[] doubleArray(int[] newQueue) {
+        int[] queueNew = new int[newQueue.length * 2];
+        for (int i = 0; i < newQueue.length; i++) {
+            queueNew[i] = newQueue[i];
         }
         return queueNew;
     }
